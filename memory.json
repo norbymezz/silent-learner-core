@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "accepted_rules": [
+    "El learner observa, no actúa.",
+    "El curador humano decide qué se guarda."
+  ],
+  "experience": [],
+  "rejected_branches": [],
+  "curator_pending": []
+}
