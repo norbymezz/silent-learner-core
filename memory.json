@@ -1,10 +1,35 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "accepted_rules": [
-    "El learner observa, no actúa.",
-    "El curador humano decide qué se guarda."
+    "El learner puede observar sin actuar, pero el horizonte de acción existe como conjunto de capacidades disponibles en el entorno.",
+    "El curador humano decide qué aprendizaje se consolida y qué permisos de acción se habilitan.",
+    "El núcleo no depende estructuralmente de ninguna aplicación concreta, aunque puede aprender una, muchas o todas las aplicaciones que perciba.",
+    "Las particularidades de percepción y actuación viven en módulos o adaptadores.",
+    "El horizonte perceptivo parte de la copia potencialmente total de los eventos accesibles por la computadora y sus sensores.",
+    "La procedencia se conserva como metadato, pero no limita la representación interna común.",
+    "El prompt no determina por sí solo la identidad efectiva del agente; la historia perceptiva, la memoria, los módulos, los permisos y el estado acumulado pueden diferenciar dos agentes con el mismo prompt.",
+    "Los proyectos particulares son contextos de trabajo y no deben confundirse con la identidad ni con la arquitectura basal de Silent Learner."
   ],
-  "experience": [],
-  "rejected_branches": [],
-  "curator_pending": []
+  "experience": [
+    {
+      "origin": "x-daily-image-agent",
+      "observation": "El intento de construir un agente específico para generar, guardar y publicar imágenes produjo la primera formulación general de Silent Learner.",
+      "status": "accepted"
+    },
+    {
+      "origin": "architectural-dialogue",
+      "observation": "El agente puede no saber qué hacer, pero debe estar situado desde el inicio en un entorno donde la totalidad de las acciones accesibles existe como posibilidad representable y gobernable.",
+      "status": "accepted"
+    }
+  ],
+  "rejected_branches": [
+    "Definir Silent Learner diciendo que no conoce ninguna aplicación concreta.",
+    "Reducir el universo perceptivo a las fuentes para las que ya existe un adaptador.",
+    "Confundir ausencia de permiso para actuar con inexistencia conceptual de la acción."
+  ],
+  "curator_pending": [
+    "Formalizar el modelo de capacidades, permisos, niveles de autonomía y reversibilidad.",
+    "Precisar la representación temporal de percepciones simultáneas o superpuestas.",
+    "Definir experimentalmente cómo divergen dos agentes con el mismo prompt y distintas trayectorias perceptivas."
+  ]
 }
